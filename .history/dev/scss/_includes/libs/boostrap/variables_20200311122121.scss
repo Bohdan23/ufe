@@ -3,16 +3,10 @@
 $white:    #fff;
 $black:    #000;
 
-$codGray: #101010;
-$tawnyPort: #76255E;
-$athensGray: #F7F7FA;
-$gallery: #EAEAEA;
-$mineShaft: #202020;
-$charade: #232532;
-$tuna: #323443;
 
-$body-bg:                   $athensGray;
-$body-color:                $charade;
+$body-bg:                   $white;
+$body-color:                $black;
+
 
 $link-color:                              $black;
 $link-decoration:                         none;
@@ -45,7 +39,7 @@ $container-max-widths: (
   sm: 720px,
   md: 960px,
   lg: 1140px,
-  xl: 1210px
+  xl: 1620px
 );
 
 
@@ -55,10 +49,9 @@ $grid-row-columns:            12;
 
 
 // fonts
-$montserrat: 'Montserrat', sans-serif;
-$sourcesanspro: 'SourceSansPro', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
-$font-family-sans-serif:      $montserrat;
-$font-family-monospace:       $montserrat;
+$font-family-sans-serif:      $mont;
+$font-family-monospace:       $mont;
 $font-family-base:            $font-family-sans-serif;
 

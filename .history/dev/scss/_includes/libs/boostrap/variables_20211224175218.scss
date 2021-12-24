@@ -3,6 +3,9 @@
 $white:    #fff;
 $black:    #000;
 
+$body-bg:                   $white;
+$body-color:                $black;
+
 $codGray: #101010;
 $tawnyPort: #76255E;
 $athensGray: #F7F7FA;
@@ -10,9 +13,6 @@ $gallery: #EAEAEA;
 $mineShaft: #202020;
 $charade: #232532;
 $tuna: #323443;
-
-$body-bg:                   $athensGray;
-$body-color:                $charade;
 
 $link-color:                              $black;
 $link-decoration:                         none;
@@ -45,7 +45,7 @@ $container-max-widths: (
   sm: 720px,
   md: 960px,
   lg: 1140px,
-  xl: 1210px
+  xl: 1620px
 );
 
 
