@@ -1,0 +1,22 @@
+@mixin font-face ($fontname, $fontfile, $fontweight: normal, $fontstyle: normal) {
+	@font-face {
+		font-family: $fontname;
+		src: url('../fonts/' + $fontfile + '.eot');
+		src: url('../fonts/' + $fontfile + '.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/' + $fontfile + '.woff') format('woff'),
+			 url('../fonts/' + $fontfile + '.ttf') format('truetype'),
+			 url('../fonts/' + $fontfile + '.svg##{fontname}') format('svg');
+		font-weight: $fontweight;
+		font-style: $fontstyle;
+	}
+};
+
+@include font-face('Montserrat', 'SourceSansPro-ExtraLight/SourceSansPro-ExtraLight', 600);
+@include font-face('Montserrat', 'SourceSansPro-ExtraLight/SourceSansPro-ExtraLight', 600);
+
+@include font-face('Montserrat', 'Montserrat-Bold/Montserrat-Bold', 600);
+@include font-face('Montserrat', 'Montserrat-Bold/Montserrat-Bold', 600, italic);
+@include font-face('Montserrat', 'Montserrat-ExtraBold/Montserrat-ExtraBold', 700);
+@include font-face('Montserrat', 'Montserrat-ExtraBold/Montserrat-ExtraBold', 700, italic);
+@include font-face('Montserrat', 'Montserrat-Black/Montserrat-Black', 800);
+@include font-face('Montserrat', 'Montserrat-Black/Montserrat-Black', 800, italic);

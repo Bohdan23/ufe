@@ -1,0 +1,64 @@
+
+
+$white:    #fff;
+$black:    #000;
+
+$body-bg:                   $white;
+$body-color:                $black;
+
+$codGray: #101010;
+$tawnyPort: #76255E;
+$athensGray: #F7F7FA;
+$gallery: #EAEAEA;
+$mineShaft: #202020;
+$charade: #232532;
+$tuna: #323443;
+
+$link-color:                              $black;
+$link-decoration:                         none;
+$link-hover-color:                        inherit;
+$link-hover-decoration:                   none;
+
+
+$paragraph-margin-bottom:   1rem;
+
+$sw-xx-min: 0;
+$sw-xs-min: 768px;
+$sw-sm-min: 992px;
+$sw-md-min: 1200px;
+$sw-lg-min: 1680px;
+
+$sw-xx-max:$sw-xs-min - 1px;
+$sw-xs-max:$sw-sm-min - 1px;
+$sw-sm-max:$sw-md-min - 1px;
+$sw-md-max:$sw-lg-min - 1px;
+
+$grid-breakpoints: (
+  xs: $sw-xx-min,
+  sm: $sw-xs-min,
+  md: $sw-sm-min,
+  lg: $sw-md-min,
+  xl: $sw-lg-min
+);
+
+$container-max-widths: (
+  sm: 720px,
+  md: 960px,
+  lg: 1140px,
+  xl: 1620px
+);
+
+
+$grid-columns:                24;
+$grid-gutter-width:           30px;
+$grid-row-columns:            12;
+
+
+// fonts
+$montserrat: 'Montserrat', sans-serif;
+$sourcesanspro: 'SourceSansPro', sans-serif;
+
+$font-family-sans-serif:      $montserrat;
+$font-family-monospace:       $montserrat;
+$font-family-base:            $font-family-sans-serif;
+

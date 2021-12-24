@@ -1,0 +1,23 @@
+﻿# cache
+Thumbs.db
+Desktop.ini
+*.DS_Store
+*.empty
+*~
+
+# SublimeText
+*.sublime-workspace
+*.sublime-project
+
+
+# project
+psd/
+tech-desk/
+./test/
+./history
+
+
+dist/
+node_modules/
+dist/bower_components/
+dev_data/

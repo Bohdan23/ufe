@@ -1,0 +1,22 @@
+.l-wrapper{
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.row-ui {
+	.col {
+		margin-bottom: 3rem;
+	}
+	&__icon {
+		text-align: center;
+		margin-bottom: 5px;
+		.icon {
+			font-size: 3rem;
+		}
+	}
+	&__name {
+		text-align: center;
+		font-size: 1.4rem;
+	}
+}
